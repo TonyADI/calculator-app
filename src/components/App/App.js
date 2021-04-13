@@ -54,9 +54,9 @@ class App extends React.Component{
     render() {
       return (
         <div className="body">
-          <h1>Basic Calculator</h1>
+          <h1>Simple Calculator</h1>
           <div className="calculator-body">
-            <Result className="result" result={this.state.result}/>
+            <Result result={this.state.result}/>
             <Keypad onClick={this.handleClick} />
           </div>
         </div>

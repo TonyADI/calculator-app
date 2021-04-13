@@ -7,15 +7,25 @@
 .calculator-body {
   max-width: 400px;
   margin: auto;
-}
-
-.button {
-  display: block;
-  background-color: #bbb;
+  border: 0.5px solid #ccc;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px #ddd;
 }
 
 button {
-  width: 25%;
+  width: 15%;
   height: 60px;
-  font-size: 30px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:hover{
+  cursor: pointer;
+  filter: brightness(90%);
 }
